@@ -22,3 +22,6 @@ sh deploy.sh
 ```
 
 Lembrete: Se perceber que algo deste tutorial está desatualizado ou não está funcionado, faça o favor de atualizar este readme Leonardo. Você sofre horas e horas cada vez que vai tentar fazer este procedimento. 5 minutos atualizando a solução te poupam horas de dor de cabeça no futuro =D
+
+Não precisa agradecer. Do Leonardo do passado ao Leonardo do futuro.
+16/03/2024
