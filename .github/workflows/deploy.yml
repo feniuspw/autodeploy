@@ -22,10 +22,8 @@ jobs:
           username: root
           key: ${{ secrets.SSH_KEY }}
           script: |
-            git config --global credential.helper store
             if [ ! -d "/opt/autodeploy/.git" ]; then
-              echo "https://${{ secrets.USERNAME }}:${{ secrets.PASSWORD }}@github.com/feniuspw/autodeploy.git"
-              git clone https://${{ secrets.USERNAME }}:${{ secrets.PASSWORD }}@github.com/feniuspw/autodeploy.git /opt/autodeploy
+                git clone git@github.com:feniuspw/autodeploy.git /opt/autodeploy
             fi
             cd /opt/autodeploy
             git pull origin main
